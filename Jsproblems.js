@@ -9,10 +9,18 @@ function addToZero(nums) {
     return false;
 }
 
+
 console.log(addToZero([]))
 console.log(addToZero([1]))
 console.log(addToZero([1, 2, 3]))
 console.log(addToZero([1, 2, 3, -2]))
+
+//  Space complexity is: O(1)
+
+//<!--------------------------------------------->
+
+
+
 
 function UniqueCharacters(word) {
     for (let i = 0; i < word.length; i++) {
@@ -27,6 +35,13 @@ function UniqueCharacters(word) {
 
 console.log(UniqueCharacters("Monday"))
 console.log(UniqueCharacters("Moonday"))
+
+//  Space complexity is: O(1)
+
+
+
+//<!--------------------------------------------------------->
+
 
 
 function isPangram(sentence) {
@@ -44,6 +59,14 @@ console.log(isPangram("The quick brown fox jumps over the lazy dog!"))
 console.log(isPangram("I like cats, but not mice"))
 
 
+//  Space complexity is: O(1)
+
+//<!--------------------------------------------------->
+
+
+
+
+
 function find_longest_word(words) {
     let maxLength = 0;
 
@@ -57,3 +80,8 @@ function find_longest_word(words) {
 }
 
 console.log(find_longest_word(["hi", "hello"]))
+
+
+//  Space complexity is: O(1)
+
+//<!--------------------------------------------------->
